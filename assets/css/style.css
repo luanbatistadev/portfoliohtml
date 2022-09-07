@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo {
+    padding: 25px;
+    padding-left: 120px;
+}
+
+.subinscription {
+    align-items: center;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 360px;
+    height: 67px;
+
+    background: #692DE9;
+    border-radius: 5px;
+}
+
+.clock {
+    width: 360px;
+    height: 184px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 106px;
+    background: rgba(3, 3, 3, 0.8);
+    border-radius: 5px;
+}
+
+.clockTitle {
+    color: #F1F1F1;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.clockTime {
+    width: 49px;
+    height: 37px;
+    color: #692DE9;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 24px;
+}
+
+.main {
+    background-image: url("../imgs/pexels-pixabay-2159\ 1.png");
+    background-size: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: #F1F1F1;
+    font-size: 48px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.redirect {
+    padding-bottom: 24px;
+    padding-right: 120px;
+}
+
+.redirect>a {
+    color: #000000;
+}
