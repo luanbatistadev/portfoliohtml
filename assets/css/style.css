@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .menu {
@@ -18,16 +19,22 @@
 
 .subinscription {
     align-items: center;
-
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
     width: 360px;
     height: 67px;
-
+    padding: 36px;
     background: #692DE9;
     border-radius: 5px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
 }
+
 
 .clock {
     width: 360px;
@@ -36,9 +43,9 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
-    margin: 106px;
     background: rgba(3, 3, 3, 0.8);
     border-radius: 5px;
+    gap: 24px;
 }
 
 .clockTitle {
@@ -58,23 +65,40 @@
     font-size: 25px;
     line-height: 50px;
     display: flex;
+    justify-content: center;
+}
+
+.clockSecondaryTitle {
+    color: #F1F1F1;
+    font-size: 16px;
     align-items: center;
-    text-align: center;
-    padding-right: 24px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .main {
     background-image: url("../imgs/pexels-pixabay-2159\ 1.png");
-    background-size: 100%;
+}
+
+.page {
+    background-size: 100% 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 700px;
+    padding: 70px;
+}
+
+.mainPage {
+    background-color: #010101;
 }
 
 .title {
     color: #F1F1F1;
+    font-family: sans-serif;
     font-size: 48px;
     align-items: center;
     justify-content: center;
@@ -85,8 +109,131 @@
 .redirect {
     padding-bottom: 24px;
     padding-right: 120px;
+
 }
 
 .redirect>a {
     color: #000000;
+    text-decoration: none;
+}
+
+.clockAlign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 68px;
+    gap: 16px;
+}
+
+.secondPageIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secondPageIcon {
+    width: 284px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.secondPageText {
+    color: #F1F1F1;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.secondPageSubtitle {
+    color: #F1F1F1;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.secondPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+.tertPage {
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+
+.tertTitle {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 55px;
+    color: #F1F1F1;
+    padding-bottom: 24px;
+}
+
+.tertSubTitle {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.tertRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 0px;
+}
+
+.tertWidget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 74px;
+    background: linear-gradient(129.28deg, #692DE9 0%, rgba(105, 45, 233, 0.6) 0.01%, rgba(105, 45, 233, 0.5) 100%);
+}
+
+.quartTitle {
+    width: 493px;
+    height: 90px;
+
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F1F1F1;
+    padding-bottom: 64px;
+}
+
+.quartWidget{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quartWidget{
+   
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column;
+        height: 700px;
 }
