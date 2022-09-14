@@ -162,8 +162,6 @@
     justify-content: space-evenly;
 }
 
-
-
 .tertPage {
     background-size: 100% 100%;
     display: flex;
@@ -210,8 +208,6 @@
 .quartTitle {
     width: 493px;
     height: 90px;
-
-
     font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -221,19 +217,89 @@
     align-items: center;
     text-align: center;
     color: #F1F1F1;
-    padding-bottom: 64px;
+    margin-bottom: 66px;
 }
 
-.quartWidget{
+.quartWidget {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.quartWidget{
-   
-        background-size: 100% 100%;
-        display: flex;
-        flex-direction: column;
-        height: 700px;
+
+.rocket {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1233px;
+    top: 2287px;
+}
+
+.spaceShip {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 125px;
+    top: 2755px;
+}
+
+.quartWidget {
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+
+.fivePage {
+    display: flex;
+    flex-direction: column;
+    height: 1479px;
+
+}
+
+.fivePageBackground {
+    background: radial-gradient(50% 50% at 50% 50%, #5E28D0 0%, rgba(94, 40, 208, 0) 100%);
+}
+
+.fivePageTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #F1F1F1;
+}
+
+.fivePageSubtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-style: normal;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F1F1F1;
+    padding: 26px 0px 0px 39px;
+}
+
+.fivePageCard {
+    width: 590px;
+    height: 320px;
+    background: #010101;
+    border: 2px solid #5E28D0;
+    border-radius: 10px;
+}
+
+.fivePageCards {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0px 130px;
+    margin-top: 120px;
 }
